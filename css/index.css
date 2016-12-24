@@ -1,0 +1,63 @@
+.icon-style, .fa-plane,
+.fa-bookmark,
+.fa-cutlery,
+.fa-lightbulb-o,
+.fa-thumb-tack,
+.fa-plus,
+.fa-user, .fa-shopping-bag,
+.fa-video-camera,
+.fa-glass {
+  color: #8C7676;
+  font-size: 4em; }
+
+.icon-size, .fa {
+  width: 64px;
+  height: 64px; }
+
+.font-basic, .wrap {
+  font-family: ArialRoundedMT;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #000000; }
+
+.wrap {
+  width: 60%;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 36px; }
+
+.top {
+  margin: 0 auto;
+  text-align: center; }
+
+.input {
+  margin: 5px; }
+  .input input {
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center; }
+
+.category {
+  margin: 40px 10px 10px 10px;
+  display: inline-block;
+  width: 120px; }
+  .category span {
+    margin: 10px auto;
+    text-align: center;
+    display: block; }
+
+.fa {
+  display: block;
+  text-align: center;
+  margin: 2px auto; }
+
+.fa-shopping-bag,
+.fa-video-camera,
+.fa-glass {
+  font-size: 3.5em; }
+
+/*# sourceMappingURL=index.css.map */
