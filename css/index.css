@@ -24,7 +24,8 @@
 
 .wrap {
   width: 60%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-sizing: border-box; }
 
 h1 {
   font-size: 36px; }
@@ -34,17 +35,22 @@ h1 {
   text-align: center; }
 
 .input {
-  margin: 5px; }
+  box-sizing: border-box;
+  margin: 5px;
+  border: solid 1px #968e84; }
   .input input {
-    width: 100%;
+    width: 99%;
     height: 40px;
     font-size: 30px;
-    text-align: center; }
+    text-align: center;
+    border: none; }
+    .input input:focus {
+      outline: none; }
 
 .category {
   margin: 40px 10px 10px 10px;
   display: inline-block;
-  width: 120px; }
+  width: 30%; }
   .category span {
     margin: 10px auto;
     text-align: center;
