@@ -12,7 +12,43 @@
         <h1>Wish List</h1>
     </div>
     <div class="input">
-        <input type="text" placeholder="Write down your wish">
+        <input type="text" placeholder="Write down your wish" class="input-name">
+        <div class="panel-choose">
+            <div class="btn-category">Choose a category</div>
+            <div class="icon-categoryGroup">
+                <div class="icon-category">
+                    <i class="fa fa-plane small"
+                       aria-hidden="true"
+                       name="place"
+                       onclick="chooseCategory()"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-bookmark small" aria-hidden="true" name="book"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-cutlery small" aria-hidden="true" name="food"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-lightbulb-o small" aria-hidden="true" name="idea"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-user small" aria-hidden="true" name="people"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-shopping-bag small" aria-hidden="true" name="product"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-video-camera small" aria-hidden="true" name="movie"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-glass small" aria-hidden="true" name="restaurant"></i>
+                </div>
+                <div class="icon-category">
+                    <i class="fa fa-thumb-tack small" aria-hidden="true" name="thing"></i>
+                </div>
+            </div>
+        </div>
+        <textarea class="input-description"></textarea>
     </div>
     <div class="categories">
         <div class="category">
@@ -58,5 +94,8 @@
 
     </div>
 </div>
+
+<script src="js/utility.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
